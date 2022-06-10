@@ -1,4 +1,4 @@
-# Modelo de Pipeline - Curso da Iniciativa DevOps
+# Modelo de Pipeline - Construída para a aplicação kube-news - Iniciativa DevOps
 
 name: CI-CD
 
@@ -6,7 +6,6 @@ on:
   push:
     branches: [ "main" ]
 
-  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
 jobs:
